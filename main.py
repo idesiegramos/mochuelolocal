@@ -116,9 +116,24 @@ with open("./transcripts/transcription_y.txt", "w", encoding="utf-8") as file:
 ###############################################################################
 # Construimos la página web
 ###############################################################################
+import streamlit as st
+# PESTAÑAS
+pages = {
+    "Inteligencia IDESIE": [
+        st.Page("main.py", title="HOME"),
+        st.Page("ia.py", title="Consulta declases"),
+    ],
+    "Accede a nuestra IA": [
+        st.Page("learn.py", title="Learn about us"),
+        st.Page("trial.py", title="Try it out"),
+    ],
+}
 
+pg = st.navigation(pages)
+pg.run()
 
 # Título y descripción
+
 st.title("IA de IDESIE Business&Tech School")
 st.write(
     "Esta Inteligencia Artificial te ayudará a con el contenido de las clases impartidas en IDESIE. "
