@@ -120,12 +120,10 @@ import streamlit as st
 # PESTAÑAS
 pages = {
     "Inteligencia IDESIE": [
-        st.Page("main.py", title="HOME"),
-        st.Page("ia.py", title="Consulta declases"),
-    ],
-    "Accede a nuestra IA": [
-        st.Page("learn.py", title="Learn about us"),
-        st.Page("trial.py", title="Try it out"),
+        st.Page("inicio.py", title="Inicio"),
+        st.Page("ia.py", title="Accede a nuestra IA"),
+        st.Page("repositorio.py", title="Repositorio de clases"),
+        st.Page("acerca_de.py", title="Acerca de"),
     ],
 }
 
