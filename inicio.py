@@ -11,8 +11,12 @@ st.image("OIP.jpg", caption="Open minded")
 st.title("IDE-IA")
 st.write(
     "Bienvenido a la Inteligencia Artificial de IDESIE"
-    "Busca, investiga, documenta lo que necesites a través de nuestra IA."
-)
+    "Busca, investiga, documenta. Aquí, donde la tecnología de la Inteligencia Aritficial se une al aprendizaje avanzado, encontrarás todo lo que necesites. 
+    A continuación te mostramos las principales utilidades:"
+    "1.-Transcribe de manera automática y precisa los videos de tus clases del Máster BIM."
+    "2.- Resume el contenido principal de las clases."
+    "3.- Responde preguntas relacionadas con el vídeo de las clases."
+    )
 
 
 st.button("Reset", type="primary")
