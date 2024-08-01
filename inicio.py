@@ -5,6 +5,9 @@ st.logo(
 )
 
 import streamlit as st
+st.image("OIP.jpg", caption="Open minded")
+
+import streamlit as st
 
 st.title("IDE-IA")
 st.write(
