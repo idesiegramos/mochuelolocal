@@ -41,7 +41,6 @@ with st.status("Downloading data..."):
 st.button("Rerun")
 
 # Go to repository
-import streamlit as st
 
 st.link_button("Go to repository", "https://streamlit.io/gallery"
 
